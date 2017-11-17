@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 05: February 30, 2016 (Example 1)
+### Day 05: Nov 17, 2017 (Example 1)
 ______
 
 **Today's Progress**: Operators and compound operators. Copy/Pasted a simple input output program asking about names and stuff.
