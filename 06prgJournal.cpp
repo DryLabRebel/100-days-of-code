@@ -1,3 +1,5 @@
+//A program someone else wrote that I copy/pasted. Fun.
+
 #include <iostream>
 
 using namespace std;
