@@ -11,5 +11,5 @@ int main()
 	cout << "Welcome, Please enter your name: ";
 	cin >> name;
 
-	name == "Geoff" ? cout << "Hi Geoff, What're you up to today?\n" : cout << "Unknown user, initiate self destruct in:\n3\n2\n1...\nBoom!\n";
+	name == "Geoff" ? cout << "Hi Geoff, What're you up to today?\n" : cout << "Warning!\nUnknown user, initiate self destruct in:\n3\n2\n1...\nBoom!\n";
 }
