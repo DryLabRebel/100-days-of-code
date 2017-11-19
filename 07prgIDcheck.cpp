@@ -1,5 +1,5 @@
-// Simple QnA
-// Created and Produced by DryLabRebel: Nov 20 2017
+// Simple Identity QnA program
+// Conceived and Created by DryLabRebel, 20 Nov 2017
 
 # include <iostream>
 using namespace std;
@@ -11,5 +11,7 @@ int main()
 	cout << "Welcome, Please enter your name: ";
 	cin >> name;
 
-	name == "Geoff" ? cout << "Hi Geoff, What're you up to today?\n" : cout << "Warning!\nUnknown user, initiate self destruct in:\n3\n2\n1...\nBoom!\n";
+	name == "Geoff" ? cout << "\nHi Geoff, What're you up to today?\n\n" : cout << "\n\nWarning!\n\n\n\n\nUnknown user,\n\n\n\n\n\n\n\nInitiate self destruct in:\n\n\n\n3\n\n\n\n2\n\n\n\n1...\n\n\n\nBoom!\n";
 }
+
+// End program
