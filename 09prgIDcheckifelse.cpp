@@ -22,8 +22,8 @@ int main()
 }
 
 // Returns only the 'if' output. Not the 'else' output, no matter what the input is into 'name' when I use the || OR operator.
-// Something about this opens up the variable to any input. Exclusive OR??
-// NOTE:- Have to explicitly state whole condition on both sides of the || OR operator so:
+// 
+// NOTE Fixed:- Have to explicitly state whole condition on both sides of the || OR operator so:
 // name == "Geoff" || name == "DryLabRebel"
 // NOT
 // name == "Geoff" || "DryLabRebel"
