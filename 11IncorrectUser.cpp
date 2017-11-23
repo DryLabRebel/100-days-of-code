@@ -27,8 +27,10 @@ int main()
 			getline(cin, user);
 			--x;
 
-		} while ((user != "Geoff" && user != "DryLabRebel") && x > 0);
+			if (user == "Geoff" || user == "DryLabRebel")
+				cout << "Hi DryLaRebel, how can I help you today?" << endl;
 
+		} while ((user != "Geoff" && user != "DryLabRebel") && x > 0);
 
 }
 
