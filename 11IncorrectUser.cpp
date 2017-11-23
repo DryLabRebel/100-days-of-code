@@ -1,7 +1,4 @@
-// 
-// 
-// 
-// Program that continues report incorrect user until correct name is entered
+// Program that continues to report incorrect user until correct name is entered
 
 # include <iostream>
 # include <string>
@@ -16,7 +13,7 @@ int main()
 	getline(cin, user);
 
 	if (user == "Geoff" || user == "DryLabRebel")
-		cout << "Hi DryLaRebel, how can I help you today?" << endl;
+		cout << "Hi DryLabRebel, how can I help you today?" << endl;
 
 	else do {
 
@@ -33,9 +30,3 @@ int main()
 		} while ((user != "Geoff" && user != "DryLabRebel") && x > 0);
 
 }
-
-
-
-// If user == Geoff || DryLabRebel
-// 	else
-//
