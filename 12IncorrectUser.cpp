@@ -1,7 +1,7 @@
 // 
 // 
 // 
-// Program that continues report incorrect user until correct name is entered
+// Program that continues to report incorrect user until correct name is entered, or attempts expire.
 
 # include <iostream>
 # include <string>
