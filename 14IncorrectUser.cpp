@@ -25,22 +25,23 @@ int main()
 	}
 
 		else do {
-		// If user is not reconized
-				cout << "Warning! Unrecognized user..." << endl;
-				cout << "Access denied!" << endl;
-				cout << "Attempts remaining: " << x << endl;
-				cout << "\nPlease enter your username: ";
-				// Auxilliary prompt
-				getline(cin, user);
-				// Initiate countdown
-				--x;
+		// If user is not recognized
+			// insert a 'range' loop here
+			cout << "Warning! Unrecognized user..." << endl;
+			cout << "Access denied!" << endl;
+			cout << "Attempts remaining: " << x << endl;
+			cout << "\nPlease enter your username: ";
+			// Auxilliary prompt
+			getline(cin, user);
+			// Initiate countdown
+			--x;
 
-				if (user == "Geoff" || user == "DryLabRebel")
-				{
-					// If registered user is identified
-					cout << "\nHi DryLabRebel, Welcome back.\n" << endl;
-					return 0;
-				}
+			if (user == "Geoff" || user == "DryLabRebel")
+			{
+				// If registered user is identified
+				cout << "\nHi DryLabRebel, Welcome back.\n" << endl;
+				return 0;
+			}
 
 			// If user name is still incorrect, loop resets
 			} while ((user != "Geoff" && user != "DryLabRebel") && x > 0);
@@ -54,18 +55,19 @@ int main()
 			cout << "Unknown user!" << endl;
 			usleep(2000000);
 			cout << "Initiate self destruct in..." << endl;
+			for (int y=3; y>0; --y)
+			{
 			usleep(1000000);
-			cout << "\n\n\n3" << endl;
+			cout << "\n\n" << y << endl;
+			}
 			usleep(1000000);
-			cout << "\n\n\n2" << endl;
-			usleep(1000000);
-			cout << "\n\n\n1" << endl;
-			usleep(1000000);
-			cout << "\n\n\nBoom!!" << endl;
-			usleep(3000000);
-			cout << "\n\n\n..." << endl;
-			usleep(3000000);
-			cout << "\n\n\nHaha... Just kidding.\n\n" << endl;
+			cout << "\n\nBoom!!" << endl;
+			usleep(2000000);
+			cout << "\n\n..." << endl;
+			usleep(2000000);
+			cout << "\n\nHaha... Just kidding...\n" << endl;
+			usleep(900000);
+			cout << "Now get off my machine.\n" << endl;
 		}
 
 // End program
