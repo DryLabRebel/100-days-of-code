@@ -1,7 +1,7 @@
-// Could I use a goto, to push the program back to the initial 'cout' if the unsername is incorrect?
 // 
 // 
-// Program that continues report incorrect user until correct name is entered
+// 
+// Program that continues to report incorrect user until correct name is entered or number of attempts reaches zero
 
 # include <iostream>
 # include <string>
@@ -10,6 +10,7 @@ using namespace std;
 
 int main()
 {
+	//variable declarations
 	string user;
 	int x = 3;
 
