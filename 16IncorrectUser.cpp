@@ -1,7 +1,18 @@
 // 
 // 
 // 
-// Program that continues to report incorrect user until correct name is entered or number of attempts reaches zero
+// Program I created that continues to report incorrect user until correct name is entered
+// This program has the sole purpose of being a practical application of the basic concepts and learning materials for c++
+// It is the progressive addition of components that I have been learning about at the cplusplus.com tutorial
+// Current version contains:
+// main function
+// variables
+// if else statement
+// for loop
+// goto statement
+// program end (return 0)
+// time delay (not covered in tutorials at the time of implementation)
+// getline cin function
 
 # include <iostream>
 # include <string>
@@ -10,7 +21,6 @@ using namespace std;
 
 int main()
 {
-	//variable declarations
 	string user;
 	int x = 3;
 
@@ -69,6 +79,9 @@ int main()
 
 		usleep(900000);
 		cout << "Seriously tho, get off my machine.\n" << endl;
+
+		usleep(900000);
+		return 0;
 	}
 
 // End program
